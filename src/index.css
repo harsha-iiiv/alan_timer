@@ -1,0 +1,171 @@
+.App {
+   
+    display: flex;
+    flex-direction: column;
+    aling-items: center
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.navbar{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 16.5rem;
+
+
+}
+.reminder-form {
+    padding: 5px;
+}
+.keypad {
+    background-color: #999;
+    padding: 0.2rem;
+    height: 10rem;
+}
+
+.keypad-row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 15.6rem;
+}
+
+.keypad-row > button {
+    margin: 0.2rem;
+    width: 100%;
+}
+.display {
+    align-items: center;
+    background-color: $display-background-color;    
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    margin: auto;
+    width: 16rem;
+}
+
+.display-time {
+    border: none;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    outline-width: 0;
+    text-align: center;
+}
+
+.display-label {
+    border: none;
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 2.3rem;
+    text-align: center;
+}
+
+.display-input-group {
+    padding: 0.2rem;
+}
+
+.display-time.display-hours {    
+    border-right: none;
+}
+
+.display-time.display-minutes {    
+    border-left: none;
+    border-right: none;
+}
+
+.display-time.display-seconds {    
+    border-left: none;
+    border-right: none;
+}
+
+.display-time.display-milliseconds {    
+    border-left: none;
+}
+
+.display-time.display-separator {  
+    background: white;  
+    border-left: none;
+    border-right: none;
+    padding-top: 0.59rem;
+}
+
+.display-time.form-control {
+     font-size: 28px;
+}
+
+.display-countdown-time {
+    color: #0082F7;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.display-countdown {
+    align-items: center;
+    background-color: whitesmoke;        
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+    margin: auto;
+    width: 16rem;
+}
+
+.display-countdown-label {
+    border: none;
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 1.2rem;
+    text-align: center;
+}
+
+.controls {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;    
+    width: 16rem;    
+}
+
+.controls > button {
+    border-radius: 0;
+    width: 100%;
+}
+.header {
+    height: 100px;
+}
+.timer {
+    align-items: center;
+    border: #333 solid 0.2rem;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 16.5rem;
+}
+
+.btn-add{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;    
+    width: 16rem; 
+}
+
+.test{
+    justify-content: center;
+    
+}
+.title{
+    color: aliceblue;
+}
