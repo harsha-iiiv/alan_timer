@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-# Quick commands for usage
+# Quick voice commands for usage
 1. (set|add|make) a reminder at today 10 p.m for test
 2. delete last reminder
 3. delete a reminder for test 
