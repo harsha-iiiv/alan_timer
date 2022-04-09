@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.1.6",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
